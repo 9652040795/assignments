@@ -1,4 +1,12 @@
 Playbooks
+1. Ansible playbook to check on how much time back the  password was changed for a account in more than 300 machines.
+2. Restarting monitoring agents that are stopped using ansible 
+3. Rebooting machines during weekends as a part of upgrade 
+4. Connecting to the nexus artifactory to clean packages that has size of 0mb, files that start with sample|test etc
+5. Ansible role for CI/CD implementation of a Java application for development purpose
+6. Writing ansible playbook for cleaning NONE docker images, Unused networks created in docker, ununsed containers to free space
+7. workspace clean up in all jenkins build machine using ansible
+
 1. Restarting Macfee service on more than 1000 machines as a part of Patching
 2. Upgrading all the Virtual Machines with Nagios agent configuration
 3. Upgrading the web servers [tomcat] with admin users for more than 50 machines
